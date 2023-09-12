@@ -46,7 +46,7 @@ First, I created a domain controller virtual machine (Windows Server 2022) on Az
 
 </p>
 <p>
-Next, I installed active directory on server manager set up domain on the domain controller VM.   
+Next, I installed active directory on server manager set up domain on the domain controller VM and created Organizational Units (_ADMINS and _EMPLOYEES) within active directory.  
 </p>
 <br />
 
