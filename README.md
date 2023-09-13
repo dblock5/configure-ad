@@ -46,7 +46,7 @@ First, I created a domain controller virtual machine (Windows Server 2022) on Az
 
 </p>
 <p>
-Next, I installed active directory on server manager set up domain on the domain controller VM. 
+Next, I installed active directory on server manager to set up the domain on the domain controller virtual machine.
 </p>
 <br />
 
@@ -61,6 +61,6 @@ Next, I installed active directory on server manager set up domain on the domain
 
 </p>
 <p>
-Created Organizational Units (_ADMINS and _EMPLOYEES) within active directory. Then I created an employee and an Admin account. I then used Powershell and ran a script that created new accounts on active directory. Then I logged in to the client virtual machine as one of the accounts I created.    
+Then, I created Organizational Units (_ADMINS and _EMPLOYEES) within active directory and created an employee and an Admin account. I then used Powershell and ran a script that created new accounts on active directory. Then I logged in to the client virtual machine as one of the accounts I created.    
 </p>
 <br />
