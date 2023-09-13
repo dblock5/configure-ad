@@ -35,7 +35,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 </p>
 <p>
-First, I created a domain controller virtual machine (Windows Server 2022) on Azure and created a client virtual machine (Windows 10) and made sure both VM's were on the same virtual network. I also set the the Domain controllers virtual NIC private IP address to static so it doesn't change and set the DNS for the client VM to use the same IP address that the domain VM has. I also logged in to client virtual machine to ping the domain controllers private IP (10.0.0.5) address with ping-t to check to ensure connectivity between the client and the Domain controller.  
+First, I created a domain controller virtual machine (Windows Server 2022) on Azure and created a client virtual machine (Windows 10) and made sure both VM's were on the same virtual network. I also set the the Domain controllers virtual NIC private IP address to static so it doesn't change and set the DNS for the client VM to use the same IP address that the domain VM has. Then logged in to client virtual machine to ping the domain controllers private IP (10.0.0.5) address with ping-t to check to ensure connectivity between the client and the Domain controller virtual machines.
 </p>
 <br />
 
