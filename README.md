@@ -23,7 +23,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Set up Client and Domain Controller Virtual Machines on Azure
 - Install Active Directory
 - Create administrative and user accounts in Active Directory
-- Connect client to domain and setup remote desktop for non-administrative users
+  
 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -61,20 +61,6 @@ Next, I installed active directory on server manager set up domain on the domain
 
 </p>
 <p>
-Created Organizational Units (_ADMINS and _EMPLOYEES) within active directory.   
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created Organizational Units (_ADMINS and _EMPLOYEES) within active directory. Then I created an employee and an Admin account. I then used Powershell and ran a script that created new accounts on active directory. Then I logged in to the client virtual machine as one of the accounts I created.    
 </p>
 <br />
