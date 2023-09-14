@@ -61,6 +61,6 @@ Next, I installed active directory on server manager to set up the domain on the
 
 </p>
 <p>
-Then, I created Organizational Units (_ADMINS and _EMPLOYEES) within active directory and created an employee and an Admin account. I then used Powershell and ran a script that created new accounts on active directory. Then I logged in to the client virtual machine as one of the accounts I created.    
+Then, I created Organizational Units (_ADMINS and _EMPLOYEES) within active directory and created an employee and an admin account. Then I used Powershell and ran a script that created new accounts on active directory. Finally, I logged into the client virtual machine as one of the accounts I created.    
 </p>
 <br />
